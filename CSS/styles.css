@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.banner{
+    background-image: url('../images/banner/banner3.png');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.banner-div{
+    width: 300px;
+    padding-top: 200px ;
+    padding-left: 900px;
+   text-align: right;
+   color: aliceblue;
+}
+.banner-div h1 {
+    font-size: 300;
+}
+.banner-div p {
+    margin-top: 10px;
+}
+.banner-div button {
+    margin-top: 10px;
+    padding: 5px;
+    color: blue;
+}
+.div-02 {
+    display: flex;
+    justify-content: space-between;
+}
+.left img{
+    width: 400px;
+    height: 500px;
+    margin-left: 200px;
+}
+.right {
+    margin-left: 50px;
+    margin-top: 150px;
+}
+.right h2 {
+    margin-bottom: 20px;
+}
+.right p {
+    margin-bottom: 20px;
+}
+.right li {
+    list-style: none;
+}
+.right li:before {
+    content: '✓';
+    padding-left: 10px;
+}
+.icon-section {
+    text-align: center;
+    height: 200px;
+}
+.icon-section h2 {
+    margin-bottom: 30px;
+}
+.div-03 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.gradientimg {
+    background-image: url("../images/gradient1.png"),url("../images/watch.png");
+    background-blend-mode: lighten;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    height: 200px;
+}
+.gradientimg h2 {
+    padding-top: 50px;
+    padding-left: 50px;
+    color: aliceblue;
+    width: 240px;
+    
+}
+.gradientimg button {
+    margin-top: 25px;
+    margin-left: 50px;
+    
+    padding: 5px;
+    color: blue;
+    border-radius: 5px;
+    border: none;
+}
+.black {
+    background-color: black;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.left2 {
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 400px;
+    padding-bottom: 10px;
+}
+.left2 h2 {
+    margin-bottom: 10px;
+}
+.left2 p{
+    margin-bottom: 10px;
+}
+.right2 {
+    margin-right: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.right2 h2 {
+    margin-bottom: 10px;
+}
+.right2 input {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.right2 button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+}
